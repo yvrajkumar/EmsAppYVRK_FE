@@ -25,7 +25,7 @@ function SignUp() {
 
   const onSubmitHandler = async (e) => {
     e.preventDefault();
-    axios.post(`http://localhost:5000/SignUp`, { signupDetails })
+    axios.post(`https://ems-app-yvrk.herokuapp.com/SignUp`, { signupDetails })
       .then(res => {
         console.log(res);
         console.log(res.data);

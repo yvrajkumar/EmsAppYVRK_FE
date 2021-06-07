@@ -6,7 +6,7 @@ import axios from 'axios';
 
 function Home() {
   const onload = async (e) => {
-    axios.get(`http://localhost:5000/`)
+    axios.get(`https://ems-app-yvrk.herokuapp.com/`)
       .then(res => {
         console.log(res);
         console.log(res.data);

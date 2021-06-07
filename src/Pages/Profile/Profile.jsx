@@ -39,7 +39,12 @@ function Profile() {
           history.push('/profile')
           setprofileDetails(JSON.parse(localStorage.getItem('userDetails')));
         }
+        if(res.data.updated==="null")
+        {
+          console.log(setuserDetails);
+        }
       })
+
 
     return;        
   }

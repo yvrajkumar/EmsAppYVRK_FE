@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+.SignUp{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 7rem;
+    padding: 0,2rem;
+    background-color: #c78a7d;
+}
+
+.SignUp_Image{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;    
+}
+.SignUp_Image img{
+    width: 500px;
+}
+
+.SignUp_Box{
+    display: flex;
+    align-items: center;
+}
+
+
+.SignUp_Box input{
+    width: 150%;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 5px;
+    border-color: white;
+}
+
+.SignUp_Box input[type="submit"]{
+    width: 50%;
+    padding: 10px;
+    margin-left: 150px;
+    border-radius: 20px;
+    color: white;
+    background-color: #CE5B46;
+    border-color: #CE5B46;
+    font-weight: bold;
+    font-family: 'poppins', sans-serif;
+    font-size: 1rem;
+}
+.SignUp_Box input[type="submit"]:hover{
+    cursor: pointer;
+}
+
+.SignUp_Box .title_SU{
+    margin-left: 150px;
+    color: White;
+}
+
+.SignUp_Box .bottomLinkWrapper{
+    margin-left: 150px;
+}
+
+.SignUp_Box a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.SignUp_Box a:hover{
+    text-decoration: underline;
+}

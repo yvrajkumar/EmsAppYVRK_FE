@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+.Home{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 7rem;
+    padding: 0,2rem;
+    background-color: #c78a7d;
+}
+
+.Home_Image{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;    
+}
+.Home_Image img{
+    width: 500px;
+}
+
+.Nav_Box{
+    display: flex;
+    align-items: center;
+}
+
+
+.Nav_Box .bottomLinkWrapper{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Nav_Box .BottomLinks{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: white;
+    color: #c78a7d;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px ;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    width: 300%;
+    text-align: center;
+    margin-bottom: 30px;
+    vertical-align: middle;
+}
+
+.Nav_Box .BottomLinks:hover{
+    text-decoration: none;
+}

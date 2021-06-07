@@ -19,7 +19,7 @@ function ForgotPassword() {
     
       const onSubmitHandler = async (e) => {
         e.preventDefault();
-        axios.post(`http://localhost:5000/SendMail`, { emailDetails })
+        axios.post(`https://ems-app-yvrk.herokuapp.com/SendMail`, { emailDetails })
             .then(res => {
               console.log(res);
               console.log(res.data);
